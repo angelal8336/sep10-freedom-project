@@ -1,1 +1,29 @@
 
+#background {
+    width: 100%
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.margin {
+    margin-top: 20px;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.border {
+    border-style: double;
+    border-width: 40px;
+}
