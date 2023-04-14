@@ -1,4 +1,8 @@
 
+body {
+    background-color: lightgreen;
+}
+
 #background {
     width: 100%
 }
@@ -31,3 +35,53 @@
 .size {
     width: 50%;
 }
+
+.timeline_container {
+    background-color: lightblue;
+    border-radius: 15px;
+    width: 37%;
+    padding: 20px;
+    margin: 20px 0 0 0;
+}
+
+.timeline {
+    margin: 0 auto;
+    position: relative;
+    max-width: 1000px;
+}
+
+.timeline::after {
+    position: absolute;
+    background-color: white;
+    width: 10px;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    content: '';
+    height: 100%;
+}
+
+.left1 {
+    left: 54%;
+}
+
+.left2 {
+    left: 10%;
+}
+
+@media (max-width: 600px) {
+    .timeline::after {
+        left: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .timeline_container {
+        left: 40px;
+        width: 100%;
+    }
+}
+
+
+
+
