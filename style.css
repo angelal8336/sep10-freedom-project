@@ -25,6 +25,7 @@ body {
 
 .textcenter {
     text-align: center;
+    margin: 0 auto 0 auto;
 }
 
 .border {
@@ -69,19 +70,23 @@ body {
     left: 10%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .timeline::after {
         left: 20px;
     }
-}
 
-@media (max-width: 600px) {
     .timeline_container {
         left: 40px;
-        width: 100%;
+        width: 90%;
     }
 }
 
+.carouselstyle {
+    width: 70%;
+    margin: 20px auto 0 auto;
+    background-color: lightblue;
+}
 
-
-
+.imgsize {
+    width: 75%;
+}

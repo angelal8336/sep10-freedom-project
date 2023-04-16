@@ -17,12 +17,12 @@
     <body>
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-           <div class="container-fulid">
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Navbar2">
+           <div>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Navbar2" >
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="container" id="Navbar2">
-                    <ul class="navbar-nav">
+                <div class="container navbar-collapse" id="Navbar2">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="navbar-item">
                             <a href="#" class="nav-link active">Carosuel</a>
                         </li>
@@ -45,7 +45,7 @@
                                         <a>Future tech</a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a href="index.html">Home</a>
+                                        <a href="home.html">Home</a>
                                     </li>
                                 </ul>
                             </div>
@@ -55,9 +55,12 @@
            </div>
         </nav>
 
-        <!-- <div class="carousel textcenter" data-bs-ride="carousel" >
+        <div class="carousel textcenter carouselstyle" data-bs-ride="carousel" id="sliding">
             <div class="carousel-inner">
                 <div class="carousel-item active">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>#</p>
+                    </div>
                     <img class="size" src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg">
                 </div>
                 <div class="carousel-item">
@@ -67,11 +70,24 @@
                     <img class="size" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/June_odd-eyed-cat_cropped.jpg/1216px-June_odd-eyed-cat_cropped.jpg">
                 </div>
             </div>
-        </div> -->
+            <div class="carousel-indicators">
+                <button class="active" type="button" data-bs-target="#sliding" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#sliding" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#sliding" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+
+
+        <div class="container-fluid orange">
+            <h2 class="textcenter padding margin">Timeline</h2>
+        </div>
+
+
+
 
         <div class="timeline">
-
             <div class="timeline_container card left2">
+                <img src="img/display_screen.png" class="card-top imgsize textcenter img-fluid">
                 <div class="card-body">
                     <h5 class="card-title textcenter">Display screen</h5>
                     <p>Display the orders on a computer screen for workers to see. Instead of having to write down the orders on a piece of paper, you can now do it digitally, which is good for the environment. Not just that but it helps keep track of orders in a more organized way, so that the restaurant can run smoothly.
@@ -79,6 +95,7 @@
                 </div>
             </div>
             <div class="timeline_container card left1">
+                <img src="#" class="card-top img-fluid">
                 <div class="card-body">
                     <h5 class="card-title textcenter">Bipolar ionization</h5>
                     <p>An indoor machine that can purify the air.. During this time of the year, many bacteria such as the flu, or covid-19 is going around. This machine helps clean out all the germs and only keeps the amazing, wonderful, smell good quality of air. Not only does it do that, but it can purify all the smoke that comes from cooking. No one wants to breathe in smoke but do you?. 🙂
@@ -86,7 +103,6 @@
                 </div>
             </div>
             <div class="timeline_container card left2">
-
                 <div class="card-body">
                     <h5 class="card-title textcenter">Automatic beverage system</h5>
                     <p>Pour soda into a cup. This simple but wonderful machine can detect the amount of soda to pour depending on the cup size. Once the cup is filled, the machine stops. This automatic beverage system can save the workers a lot of time, as they don't need to manually pour it. It really saves a lot of wiping </p>
@@ -100,6 +116,7 @@
                 </div>
             </div>
             <div class="timeline_container card left2">
+                <img src="img/doordash_logo.png" class="card-top imgsize textcenter img-fluid">
                 <div class="card-body">
                     <h5 class="card-title textcenter">Doordash</h5>
                     <p>Doordash is a food app that delivers food as quick as opening the door (disclaimer: not true). Its an easy way to access food that you cant reach, mentally or physically.  (Talks about the benefits)
@@ -107,6 +124,7 @@
                 </div>
             </div>
             <div class="timeline_container card left1">
+                <img src="img/eatapp_logo.png" class="card-top imgsize textcenter img-fluid">
                 <div class="card-body">
                     <h5 class="card-title textcenter">Eatapp</h5>
                     <p>Like many other food apps that already exist, it can deliver food as fast as the wind goes (disclaimer: not true). (Talks about the benefits)
@@ -121,6 +139,8 @@
                 </div>
             </div>
         </div>
+
+
 
 
 
