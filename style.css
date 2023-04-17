@@ -88,5 +88,41 @@ body {
 }
 
 .imgsize {
-    width: 75%;
+    width: 90%;
+}
+
+.timeline1 {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 5px 1fr;
+}
+
+.timeline1_container {
+    margin: 20px 30px 30px 20px;
+}
+
+.timeline_line {
+    position: relative;
+    background-color: white;
+    width: 10px;
+    height: 100%;
+    right: 4px;
+}
+
+.card1 {
+    position: relative;
+    right: 30px;
+}
+
+.card2 {
+    position: relative;
+    left: 30px;
+}
+
+.transparent {
+    background-color: transparent;
+    border-width: 0px;
+
 }
