@@ -19,6 +19,14 @@ body {
     background-color: orange;
 }
 
+.white {
+    background-color: white;
+}
+
+.dark {
+    background-color: #45A29E;
+}
+
 .padding {
     padding: 20px;
 }
@@ -34,13 +42,13 @@ body {
 }
 
 .size {
-    width: 50%;
+    width: 70%;
 }
 
 .timeline_container {
     background-color: lightblue;
     border-radius: 15px;
-    width: 37%;
+    width: 45%;
     padding: 20px;
     margin: 20px 0 0 0;
 }
@@ -67,10 +75,10 @@ body {
 }
 
 .left2 {
-    left: 10%;
+    left: 2%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .timeline::after {
         left: 20px;
     }
@@ -81,6 +89,13 @@ body {
     }
 }
 
+/* @media (max-width: 1100px) {
+    .timeline_container {
+        width: 37%;
+        right: -100px;
+    }
+} */
+
 .carouselstyle {
     width: 70%;
     margin: 20px auto 0 auto;
@@ -88,41 +103,12 @@ body {
 }
 
 .imgsize {
-    width: 90%;
+    width: 50%;
 }
 
-.timeline1 {
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 30px;
-    display: grid;
-    grid-template-columns: 1fr 5px 1fr;
+.buttonreadmore {
+    width: 50%;
+    margin: auto auto;
+    background-color: orange;
 }
 
-.timeline1_container {
-    margin: 20px 30px 30px 20px;
-}
-
-.timeline_line {
-    position: relative;
-    background-color: white;
-    width: 10px;
-    height: 100%;
-    right: 4px;
-}
-
-.card1 {
-    position: relative;
-    right: 30px;
-}
-
-.card2 {
-    position: relative;
-    left: 30px;
-}
-
-.transparent {
-    background-color: transparent;
-    border-width: 0px;
-
-}
