@@ -8,6 +8,13 @@ body {
     width: 100%
 }
 
+
+
+.background-image5 {
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg");
+    background-size: cover;
+}
+
 .background-image4 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("https://st2.depositphotos.com/1062624/6571/i/450/depositphotos_65716775-stock-photo-abstract-blue-background-technology-background.jpg");
     background-size: cover;
@@ -21,7 +28,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("https://img.freepik.com/free-vector/realistic-background-futuristic-style_23-2149129125.jpg");
     /* background-image: url("https://img.freepik.com/free-vector/realistic-background-futuristic-style_23-2149129125.jpg"); */
     background-size: cover;
-    min-height: 60vh;
+    min-height: 30vh;
     color: white;
     background-repeat: no-repeat;
     padding-top: 200px;
@@ -51,6 +58,7 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
     postion: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("https://media.timeout.com/images/105802468/750/562/image.jpg");
 }
 
 
@@ -226,3 +234,25 @@ body {
     border-color: darkblue;
     margin: auto auto;
 }
+
+.futurebox {
+    margin-top: 80px;
+}
+
+.button-container {
+    margin-top: 50px;
+}
+
+.futurecardpadding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-color {
+    background-color: white;
+}
+
+
+/* .navbar-color:hover {
+    background-color: #dddbcb;
+} */
